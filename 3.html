@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+    tr:hover {
+    background-color: yellow;
+  }
+</style>
+</head>
+<body>
+<table border="2" cellpadding="4" cellspacing="2">
+  <colgroup>
+    <col span="1" />
+    <col span="1" />
+    <col span="1" />
+  </colgroup>
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Subjects</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Alice</td>
+    <td>Math</td>
+    <td>95</td>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td>Bob</td>
+    <td colspan="2">All subjects completed</td>
+  </tr>
+  <tr>
+    <td>Charlie</td>
+    <td>Science</td>
+    <td>78</td>
+  </tr>
+</table>
+
+</body>
+</html>
